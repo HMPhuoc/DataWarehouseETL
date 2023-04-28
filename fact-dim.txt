@@ -1,0 +1,20 @@
+fact-dim
+
+-fact:
+	dead		
+	admission	
+	diagnosis	
+
+-dim:
+	time:day,month,...
+	personal_data:age,gender,rural,duration,...
+		health_value(thông số): 
+		habbit(thói quen):smoke,alcoho (bit)
+		anamnesis(tiền sử bệnh): (list)
+	
+
+disease:bệnh chẩn đoán, (list) 
+
+
+
+
