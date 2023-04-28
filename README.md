@@ -12,3 +12,20 @@
 </ul>
 
 <b><h1>FinalProjectETL contains the ETL project.</h1>
+The project consists of many Control Flows in which has many Data Flows. Each of them EXTRACT the data from source, TRANSFORM and finally LOAD them into the existing tables of dimensions and facts. And here are the Flows:
+<ul>
+    For Admission Control Flow:
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    For Deathcase Control Flow:
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul> 
