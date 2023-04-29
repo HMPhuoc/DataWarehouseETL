@@ -95,7 +95,7 @@ CREATE TABLE [dbo].[AdmissionFact](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
 	[TimeID] [int] references TimeDim(TimeID),
-	[PesonID] [int] references PersonDim(PersonID) ,
+	[PersonID] [int] references PersonDim(PersonID) ,
 	[HealthID] [int] references PersonalHealthDim(HealthID),
 	[AmneID] [int] references AnaemiaDim(AmneID),
 	[HabbitID] [int] references HabbitDim(HabbitID)
