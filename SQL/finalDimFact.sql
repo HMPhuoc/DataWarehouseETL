@@ -54,7 +54,8 @@ CREATE TABLE [dbo].[HabbitDim](
 	[ALCOHO] [bit] NULL
 )
 GO
-/****** Object:  Table [dbo].[PersonalHealthDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
+/****** Object:  Table [dbo].[PersonalHealthDim] 
+							  PersonalHealthDim    Script Date: 25-Apr-23 5:23:28 PM ******/
 CREATE TABLE [dbo].[PersonalHealthDim](
 	[HB] decimal(7,2) NULL,
 	[TLC] decimal(7,2) NULL,
@@ -64,7 +65,7 @@ CREATE TABLE [dbo].[PersonalHealthDim](
 	[CREATININE] decimal(7,2) NULL,
 	[BNP] integer NULL,
 	[EF] integer NULL,
-	[HealthID] [int] NOT NULL,
+	[HealthID] [int] primary key,
 )
 GO
 /****** Object:  Table [dbo].[PersonDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
@@ -72,7 +73,7 @@ CREATE TABLE [dbo].[PersonDim](
 	[AGE] [int] NULL,
 	[GENDER] [nvarchar](255) NULL,
 	[RURAL] [nvarchar](255) NULL,
-	[PesonID] [int] primary key,
+	[PersonID] [int] primary key,
 )
 GO
 /****** Object:  Table [dbo].[TimeDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
@@ -88,3 +89,15 @@ CREATE TABLE [dbo].[TimeDim](
 	[AdmissionYear] [int] NULL,
 	[TimeID] [int] primary key,
 )
+GO
+
+CREATE TABLE [dbo].[AdmissionFact](
+	[SNO] [int] primary key,
+	[MRD No#] [int],
+	[TimeID] [int] references TimeDim(TimeID),
+	[PesonID] [int] references PersonDim(PersonID) ,
+	[HealthID] [int] references PersonalHealthDim(HealthID),
+	[AmneID] [int] references AnaemiaDim(AmneID),
+	[HabbitID] [int] references HabbitDim(HabbitID)
+) ON [PRIMARY]
+GO
