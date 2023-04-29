@@ -29,3 +29,5 @@ The project consists of many Control Flows in which has many Data Flows. Each of
     <li></li>
     <li></li>
 </ul> 
+
+<h1>Modify the PATH of the Excel Connection carfully. Should use the 2007-2010 instead of the 97-2003</h1>
