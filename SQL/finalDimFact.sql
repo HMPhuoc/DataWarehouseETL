@@ -1,7 +1,7 @@
 USE [FinalProject]
 GO
 /****** Object:  Table [dbo].[AnamDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
-CREATE TABLE [dbo].[AnaemiaDim](
+CREATE TABLE [dbo].[AnaemiaData](
 	[RAISED CARDIAC ENZYMES] [bit] NULL,
 	[SEVERE ANAEMIA] [bit] NULL,
 	[ANAEMIA] [bit] NULL,
@@ -15,7 +15,7 @@ CREATE TABLE [dbo].[AnaemiaDim](
 GO
 /****** Object:  Table [dbo].[DiagDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
 
-CREATE TABLE [dbo].[DiagnosisDim](
+CREATE TABLE [dbo].[DiagnosisData](
 	[STABLE ANGINA] [bit] NULL,
 	[ACS] [bit] NULL,
 	[STEMI] [bit] NULL,
@@ -47,7 +47,7 @@ CREATE TABLE [dbo].[DiagnosisDim](
 GO
 /****** Object:  Table [dbo].[HabbitDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
 
-CREATE TABLE [dbo].[HabbitDim](
+CREATE TABLE [dbo].[HabbitData](
 	[HabbitID] [int] primary key,
 	[HabbitName] [varchar](50) NULL,
 	[SMOKING] [bit] NULL,
@@ -56,7 +56,7 @@ CREATE TABLE [dbo].[HabbitDim](
 GO
 /****** Object:  Table [dbo].[PersonalHealthDim] 
 							  PersonalHealthDim    Script Date: 25-Apr-23 5:23:28 PM ******/
-CREATE TABLE [dbo].[PersonalHealthDim](
+CREATE TABLE [dbo].[PersonalHealthData](
 	[HB] decimal(7,2) NULL,
 	[TLC] decimal(7,2) NULL,
 	[PLATELETS] decimal(7,2) NULL,
@@ -69,7 +69,7 @@ CREATE TABLE [dbo].[PersonalHealthDim](
 )
 GO
 /****** Object:  Table [dbo].[PersonDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
-CREATE TABLE [dbo].[PersonDim](
+CREATE TABLE [dbo].[PersonData](
 	[AGE] [int] NULL,
 	[GENDER] [nvarchar](255) NULL,
 	[RURAL] [nvarchar](255) NULL,
@@ -78,7 +78,7 @@ CREATE TABLE [dbo].[PersonDim](
 GO
 /****** Object:  Table [dbo].[TimeDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
 
-CREATE TABLE [dbo].[TimeDim](
+CREATE TABLE [dbo].[AdmissionTimeData](
 	[DischargeDay] [int] NULL,
 	[DischargeMonth] [int] NULL,
 	[DischargeQuarter] [int] NULL,
@@ -91,13 +91,30 @@ CREATE TABLE [dbo].[TimeDim](
 )
 GO
 
-CREATE TABLE [dbo].[AdmissionFact](
+CREATE TABLE [dbo].[AdmissionReport](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
-	[TimeID] [int] references TimeDim(TimeID),
-	[PersonID] [int] references PersonDim(PersonID) ,
-	[HealthID] [int] references PersonalHealthDim(HealthID),
-	[AmneID] [int] references AnaemiaDim(AmneID),
-	[HabbitID] [int] references HabbitDim(HabbitID)
-) ON [PRIMARY]
+	[TimeID] [int] references AdmissionTimeData(TimeID),
+	[PersonID] [int] references PersonData(PersonID) ,
+	[HealthID] [int] references PersonalHealthData(HealthID),
+	[AmneID] [int] references AnaemiaData(AmneID),
+	[HabbitID] [int] references HabbitData(HabbitID)
+)
 GO
+
+CREATE TABLE [dbo].[DeathReport](
+	[SNO] [int] primary key,
+	[MRD No#] [int],
+	[DeathTime] [datetime],
+	[DeathPersonID] [int] references PersonData(PersonID) 
+)
+
+GO
+CREATE TABLE [dbo].[DiagnosisReport](
+	[SNO] [int] primary key,
+	[MRD No#] [int],
+	[TimeID] [int] references AdmissionTimeData(TimeID),
+	[PersonID] [int] references PersonData(PersonID) ,
+	[AmneID] [int] references AnaemiaData(AmneID),
+	[DiagnosisID] [int] references DiagnosisData(DiagID)
+)
