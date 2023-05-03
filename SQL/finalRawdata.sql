@@ -5,7 +5,7 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE TABLE [dbo].[RawData](
+CREATE TABLE [dbo].[RawAdmissionData](
 	[SNO] [int] NULL,
 	[MRD No#] [int] NULL,
 	[D#O#A] [datetime] NULL,
@@ -64,3 +64,12 @@ CREATE TABLE [dbo].[RawData](
 	[CHEST INFECTION] [bit] NULL
 ) ON [PRIMARY]
 GO
+
+CREATE TABLE [dbo].[RawDeathData](
+	[SNO] [int] NULL,
+	[MRD No#] [int] NULL,
+	[AGE] [int] NULL,
+	[GENDER] [nvarchar](255) NULL,
+	[RURAL] [nvarchar](255) NULL,
+	[D#O#D] [datetime] NULL,
+)
