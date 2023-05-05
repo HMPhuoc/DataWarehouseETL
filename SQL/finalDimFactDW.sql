@@ -1,7 +1,9 @@
-USE [FinalProject]
+--create database FinalProjectDW
+
+USE [FinalProjectDW]
 GO
-/****** Object:  Table [dbo].[AnamDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
-CREATE TABLE [dbo].[AnaemiaData](
+
+CREATE TABLE [dbo].[AnaemiaDW](
 	[RAISED CARDIAC ENZYMES] [bit] NULL,
 	[SEVERE ANAEMIA] [bit] NULL,
 	[ANAEMIA] [bit] NULL,
@@ -13,9 +15,9 @@ CREATE TABLE [dbo].[AnaemiaData](
 	[AmneID] [int] primary key,
 )
 GO
-/****** Object:  Table [dbo].[DiagDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
 
-CREATE TABLE [dbo].[DiagnosisData](
+
+CREATE TABLE [dbo].[DiagnosisDW](
 	[STABLE ANGINA] [bit] NULL,
 	[ACS] [bit] NULL,
 	[STEMI] [bit] NULL,
@@ -45,18 +47,17 @@ CREATE TABLE [dbo].[DiagnosisData](
 	[DiagID] [int] primary key,
 )
 GO
-/****** Object:  Table [dbo].[HabbitDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
 
-CREATE TABLE [dbo].[HabbitData](
+
+CREATE TABLE [dbo].[HabbitDW](
 	[HabbitID] [int] primary key,
 	[HabbitName] [varchar](50) NULL,
 	[SMOKING] [bit] NULL,
 	[ALCOHO] [bit] NULL
 )
 GO
-/****** Object:  Table [dbo].[PersonalHealthDim] 
-							  PersonalHealthDim    Script Date: 25-Apr-23 5:23:28 PM ******/
-CREATE TABLE [dbo].[PersonalHealthData](
+
+CREATE TABLE [dbo].[PersonalHealthDW](
 	[HB] decimal(7,2) NULL,
 	[TLC] decimal(7,2) NULL,
 	[PLATELETS] decimal(7,2) NULL,
@@ -68,17 +69,17 @@ CREATE TABLE [dbo].[PersonalHealthData](
 	[HealthID] [int] primary key,
 )
 GO
-/****** Object:  Table [dbo].[PersonDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
-CREATE TABLE [dbo].[PersonData](
+
+CREATE TABLE [dbo].[PersonDW](
 	[AGE] [int] NULL,
 	[GENDER] [nvarchar](255) NULL,
 	[RURAL] [nvarchar](255) NULL,
 	[PersonID] [int] primary key,
 )
 GO
-/****** Object:  Table [dbo].[TimeDim]    Script Date: 25-Apr-23 5:23:28 PM ******/
 
-CREATE TABLE [dbo].[AdmissionTimeData](
+
+CREATE TABLE [dbo].[AdmissionTimeDW](
 	[DischargeDay] [int] NULL,
 	[DischargeMonth] [int] NULL,
 	[DischargeQuarter] [int] NULL,
@@ -91,30 +92,36 @@ CREATE TABLE [dbo].[AdmissionTimeData](
 )
 GO
 
-CREATE TABLE [dbo].[AdmissionReport](
+CREATE TABLE [dbo].[AdmissionReportFact](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
-	[TimeID] [int] references AdmissionTimeData(TimeID),
-	[PersonID] [int] references PersonData(PersonID) ,
-	[HealthID] [int] references PersonalHealthData(HealthID),
-	[AmneID] [int] references AnaemiaData(AmneID),
-	[HabbitID] [int] references HabbitData(HabbitID)
+	[TimeID] [int] references AdmissionTimeDW(TimeID),
+	[PersonID] [int] references PersonDW(PersonID) ,
+	[HealthID] [int] references PersonalHealthDW(HealthID),
+	[AmneID] [int] references AnaemiaDW(AmneID),
+	[HabbitID] [int] references HabbitDW(HabbitID)
 )
 GO
-
-CREATE TABLE [dbo].[DeathReport](
+CREATE TABLE [dbo].[DeathPersonDW](
+	[AGE] [int] NULL,
+	[GENDER] [nvarchar](255) NULL,
+	[RURAL] [nvarchar](255) NULL,
+	[DeathPersonID] [int] primary key,
+)
+GO
+CREATE TABLE [dbo].[DeathReportFact](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
 	[DeathTime] [datetime],
-	[DeathPersonID] [int] references PersonData(PersonID) 
+	[DeathPersonID] [int] references DeathPersonDW(DeathPersonID) 
 )
 
 GO
-CREATE TABLE [dbo].[DiagnosisReport](
+CREATE TABLE [dbo].[DiagnosisReportFact](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
-	[TimeID] [int] references AdmissionTimeData(TimeID),
-	[PersonID] [int] references PersonData(PersonID) ,
-	[AmneID] [int] references AnaemiaData(AmneID),
-	[DiagnosisID] [int] references DiagnosisData(DiagID)
+	[TimeID] [int] references AdmissionTimeDW(TimeID),
+	[PersonID] [int] references PersonDW(PersonID) ,
+	[AmneID] [int] references AnaemiaDW(AmneID),
+	[DiagnosisID] [int] references DiagnosisDW(DiagID)
 )
