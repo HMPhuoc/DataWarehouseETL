@@ -1,0 +1,310 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="6f1b7997-9298-43b9-b368-3da0bf1d155e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Admission Time DW</ID>
+  <Name>Admission Time DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4023" scrolltop="-6392" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="16891" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="AdmissionTimeDW" left="-1927" top="-2138" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3471" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008f0d00000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_AdmissionTimeDW" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4023</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6392</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1927</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-2138</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c0a5e155-b8ee-4f01-8bcd-702358a0d79f">
+    <DataSourceViewID>Final Project DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="90e13e50-7b07-4a97-9222-cc3a55850ad8">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1c1403a1-849c-4eb1-933d-a6cf87afd40b">
+      <ID>Time ID</ID>
+      <Name>Time ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fad995fb-7a6c-4365-98d7-af30b6f0b2c8">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="984c7c90-0a84-43db-9988-eb79b5082a0f">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>TimeID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="5f4db16a-32cd-4570-acfc-c9f0eae9beca">
+          <AttributeID>Discharge Day</AttributeID>
+          <Name>Discharge Day</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="55365f11-c05a-46c8-842d-d62e2f8e11e2">
+          <AttributeID>Discharge Month</AttributeID>
+          <Name>Discharge Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a84fb58c-6fd5-4b2e-aa9e-baff3ff59a5c">
+          <AttributeID>Discharge Quarter</AttributeID>
+          <Name>Discharge Quarter</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="98e4427f-2873-4a09-a06c-84477adf02c4">
+          <AttributeID>Discharge Year</AttributeID>
+          <Name>Discharge Year</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a5821ef1-3004-4404-89f5-2a90c41b62d6">
+          <AttributeID>Admission Day</AttributeID>
+          <Name>Admission Day</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3bf85935-6d7a-462b-8a49-abe22c609777">
+          <AttributeID>Admission Month</AttributeID>
+          <Name>Admission Month</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="3f6554f8-bf64-4409-9ca4-f8f7b85a50d2">
+          <AttributeID>Admission Quarter</AttributeID>
+          <Name>Admission Quarter</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="f76bf1e2-69f8-4e27-a829-bed236b664b9">
+          <AttributeID>Admission Year</AttributeID>
+          <Name>Admission Year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5ce6ee33-3923-4aba-95a3-1ce3fed4186d">
+      <ID>Discharge Day</ID>
+      <Name>Discharge Day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="9e548c35-df81-4527-b758-0854df97451c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="32b3fa66-cd76-479c-b1f9-04ba9de49106">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>DischargeDay</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="cef18f12-4abe-417a-b877-f20425ecfed4">
+      <ID>Discharge Month</ID>
+      <Name>Discharge Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4d8789e2-6cba-4aa6-b713-1d7452e6fdcf">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3418358c-ddf6-4cd7-bde8-fe9f782d39dd">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>DischargeMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="48621f69-530f-405d-9045-3c518bd3e10b">
+      <ID>Discharge Quarter</ID>
+      <Name>Discharge Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="59ecbcd2-affe-4b7d-93d0-239d86cb125e">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab30d41c-d579-42f6-bd12-a5a7aac4c50a">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>DischargeQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="63cf980b-7c0d-4dc1-b4e7-65336fe01019">
+      <ID>Discharge Year</ID>
+      <Name>Discharge Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="34efd872-f872-4bee-aa05-c02b6dccbb88">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="63241425-a94c-4739-91f1-54a4a5cad44f">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>DischargeYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1db5ebd8-b39c-4166-86a5-20dd0a254d9b">
+      <ID>Admission Day</ID>
+      <Name>Admission Day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f3b2741d-f292-4d75-9467-b379447e48ee">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7e43c51d-5e9d-49d3-8923-12d1131bce9f">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>AdmissionDay</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7496bae-c918-4cdf-9ec2-61ae065ba87c">
+      <ID>Admission Month</ID>
+      <Name>Admission Month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7f926e06-6f9b-4f0d-87dc-fd4405152bfe">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="95a68e72-7799-4a82-8953-e694d631d171">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>AdmissionMonth</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7b8bf91c-d5b0-4a6f-b502-231aa74f4c47">
+      <ID>Admission Quarter</ID>
+      <Name>Admission Quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4003058-72a2-404e-b673-9fcf02ae5999">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d43164ff-51d4-45b3-ac7c-6b45d17d707e">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>AdmissionQuarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="79510b8f-c741-45a0-bdf1-533f4fb98be3">
+      <ID>Admission Year</ID>
+      <Name>Admission Year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6f2f5fb1-e234-403d-989a-3113fe1b2d67">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2676fca7-81fd-4e9a-972f-96e6033877fc">
+            <TableID>dbo_AdmissionTimeDW</TableID>
+            <ColumnID>AdmissionYear</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="3ecbbbfc-51e8-47e3-91dc-9b192553eef3">
+      <ID>Hierarchy</ID>
+      <Name>Admission</Name>
+      <Levels>
+        <Level dwd:design-time-name="ffe06e0f-ec2e-45de-a9fb-14470c1d05f7">
+          <ID>Admission Year</ID>
+          <Name>Admission Year</Name>
+          <SourceAttributeID>Admission Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="5e1307f7-aa60-4263-8d7e-0361e0be7589">
+          <ID>Admission Quarter</ID>
+          <Name>Admission Quarter</Name>
+          <SourceAttributeID>Admission Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="ee2dbbbf-8681-411a-9b20-620e8bab9253">
+          <ID>Admission Month</ID>
+          <Name>Admission Month</Name>
+          <SourceAttributeID>Admission Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8f5996b9-0532-4dbf-b47a-b796ddd06747">
+          <ID>Admission Day</ID>
+          <Name>Admission Day</Name>
+          <SourceAttributeID>Admission Day</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+    <Hierarchy dwd:design-time-name="74c7344e-d4ff-43c8-a4d6-76e9d4b1ab7a">
+      <ID>Hierarchy 1</ID>
+      <Name>Discharge</Name>
+      <Levels>
+        <Level dwd:design-time-name="b08464f5-6408-481d-93db-ddb1b4be0e6e">
+          <ID>Discharge Year</ID>
+          <Name>Discharge Year</Name>
+          <SourceAttributeID>Discharge Year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="994374ff-817d-4610-97be-73c3b16a2725">
+          <ID>Discharge Quarter</ID>
+          <Name>Discharge Quarter</Name>
+          <SourceAttributeID>Discharge Quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="d8eee1c2-d205-4cb1-b48a-a52782fdb52a">
+          <ID>Discharge Month</ID>
+          <Name>Discharge Month</Name>
+          <SourceAttributeID>Discharge Month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="8c43c9f3-e04f-4f93-ac6c-105be34d0f8f">
+          <ID>Discharge Day</ID>
+          <Name>Discharge Day</Name>
+          <SourceAttributeID>Discharge Day</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

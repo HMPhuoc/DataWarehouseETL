@@ -1,0 +1,274 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="53da7d9a-c05c-4bcd-b470-a6a9473ca231" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Anaemia DW</ID>
+  <Name>Anaemia DW</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3282" scrolltop="-6392" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="16891" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="AnaemiaDW" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4953" height="4106" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000591300000a100000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_AnaemiaDW" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3282</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-6392</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="c1c4986f-647b-464f-afc3-ba11263bfc93">
+    <DataSourceViewID>Final Project DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="5ab74a28-4615-43e3-94d3-6e36915f6b1d">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="6f13b9e6-db86-4d95-ba57-1723e7e7817c">
+      <ID>Amne ID</ID>
+      <Name>Amne ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f360b3cc-fd1c-4b33-ad2b-16783efd1875">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1f6bc961-89c8-420e-b8d7-483d0030ef53">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>AmneID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="e56b4b9e-c10e-4e28-9876-c4a4a479dfdf">
+          <AttributeID>RAISED CARDIAC ENZYMES</AttributeID>
+          <Name>RAISED CARDIAC ENZYMES</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="67af1266-d2dc-4fd9-97c1-2489236b85c3">
+          <AttributeID>SEVERE ANAEMIA</AttributeID>
+          <Name>SEVERE ANAEMIA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="39f896c2-1fd3-4bf5-92b8-42d8249b1e8f">
+          <AttributeID>ANAEMIA</AttributeID>
+          <Name>ANAEMIA</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="70a961c4-d702-4073-9491-beadbe4b70ae">
+          <AttributeID>DM</AttributeID>
+          <Name>DM</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5ed33464-454a-49b4-9d30-4916260559c2">
+          <AttributeID>CAD</AttributeID>
+          <Name>CAD</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8a78356b-6216-432b-b77e-c1a0f16e746e">
+          <AttributeID>HTN</AttributeID>
+          <Name>HTN</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="39d67991-d54e-44e4-8486-7b3c905c45bb">
+          <AttributeID>PRIOR CMP</AttributeID>
+          <Name>PRIOR CMP</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="097d0870-401d-47a1-85de-4cdc1310c522">
+          <AttributeID>CKD</AttributeID>
+          <Name>CKD</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4b3ec7f7-6e0f-4bd1-8ef6-aa6a06ac8bf9">
+      <ID>RAISED CARDIAC ENZYMES</ID>
+      <Name>RAISED CARDIAC ENZYMES</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d6e3a967-b5dc-42ff-8ea2-0ec187b8acf0">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b51d24dc-e319-4ebd-872c-d4b8ad5c9f9b">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>RAISED_x0020_CARDIAC_x0020_ENZYMES</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8567c317-cfa8-4cdf-b4a8-12a3e7b8024a">
+      <ID>SEVERE ANAEMIA</ID>
+      <Name>SEVERE ANAEMIA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="658e88b7-516e-4a9a-aad5-ecfae258bb35">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e0ef7d34-387d-47a8-85fe-9a197794e198">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>SEVERE_x0020_ANAEMIA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1bdb0139-89a5-4157-9d0c-53851f20a055">
+      <ID>ANAEMIA</ID>
+      <Name>ANAEMIA</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="e4f1ceaf-4336-4af9-bc78-fcc1dc193209">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="fc827583-2612-4ac4-8db4-3eb341dfe756">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>ANAEMIA</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="bfc177e6-aec2-472c-9626-b6cfead225b5">
+      <ID>DM</ID>
+      <Name>DM</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b2dac57d-5f8a-49f4-8cdc-bc474eb9b1da">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7dff08ae-29c7-4aa6-913f-4d9184aed4e8">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>DM</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="07d59b21-eced-4f7b-8cdf-08bbe73fa36a">
+      <ID>CAD</ID>
+      <Name>CAD</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="27909741-db39-40b9-8f09-7b798bb4195b">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9dbc38d0-ad24-4be3-9d2d-4d3056f68f90">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>CAD</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a1f9ab4e-ec9d-4d97-9638-57e5f3742a0c">
+      <ID>HTN</ID>
+      <Name>HTN</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="47cad794-c37d-455b-8e01-84defa11ebdf">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="892ac1c7-2518-4877-ae73-6a3e6759ac08">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>HTN</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="03a33950-0e3e-4189-a7a4-2073e2b4f527">
+      <ID>PRIOR CMP</ID>
+      <Name>PRIOR CMP</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2a5f27f4-abb8-4916-bbcc-01571753484e">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="05b4d7c4-f32d-463b-a06a-6a895e003b3b">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>PRIOR_x0020_CMP</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d5dcaf1a-e448-48c7-b5c3-97a2c34e87aa">
+      <ID>CKD</ID>
+      <Name>CKD</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b8da67fa-d922-4cf3-944c-b33818128193">
+          <DataType>Boolean</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="165fb571-5cad-4373-8d9b-30aea148ac7f">
+            <TableID>dbo_AnaemiaDW</TableID>
+            <ColumnID>CKD</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="f19f9897-7f6e-4a56-95e6-63c32f22ff90">
+      <ID>Hierarchy</ID>
+      <Name>HasAnaemia</Name>
+      <Levels>
+        <Level dwd:design-time-name="eea7e058-1e1e-4930-9c6e-ea3884e9b322">
+          <ID>ANAEMIA</ID>
+          <Name>ANAEMIA</Name>
+          <SourceAttributeID>ANAEMIA</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="1543a781-599e-4907-93a3-9b6539bf83ae">
+          <ID>SEVERE ANAEMIA</ID>
+          <Name>SEVERE ANAEMIA</Name>
+          <SourceAttributeID>SEVERE ANAEMIA</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
