@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b252345a-db4c-44c3-a879-737ddea74b52" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8cde4bf9-cdb2-42aa-85d2-b21a1fb072b9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Person DW</ID>
   <Name>Person DW</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4258" scrolltop="-7292" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="16891" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4258" scrolltop="-7292" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="14923" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PersonDW" left="84" top="-487" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="PersonDW" left="84" top="-487" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
             </control>
@@ -68,41 +68,41 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="70ca766c-a383-4aff-89ca-e464e0b180ff">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7cdb0bfd-8439-4c7c-8543-cdfb6464dd3a">
     <DataSourceViewID>Final Project DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="3f1ee883-6c43-414b-a8f5-283c6b6e805d">
+  <ErrorConfiguration dwd:design-time-name="307154dd-b16e-4d82-87b9-8afad09338e5">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="28624cf6-282b-4f7f-8f0f-7b51651a0adc">
+    <Attribute dwd:design-time-name="f61205fe-5333-4212-b768-535b43499cc0">
       <ID>Person ID</ID>
       <Name>Person ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="64b5bcdf-6eed-4b2f-a4b1-2eb68f0c13f1">
+        <KeyColumn dwd:design-time-name="166cd9a3-056b-40c6-bd59-8c5763f597ec">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c1fd9dd3-cb51-4e07-acba-014e416bf721">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="66909079-1285-4387-b40c-b785fceb843b">
             <TableID>dbo_PersonDW</TableID>
             <ColumnID>PersonID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="99c922d4-fd5e-4e7c-8fdf-d316267eb447">
+        <AttributeRelationship dwd:design-time-name="6b4c1ffe-862c-4da4-b786-07c5e0be704a">
           <AttributeID>AGE</AttributeID>
           <Name>AGE</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="964876a6-cb71-4083-9165-af9c36c7de7a">
+        <AttributeRelationship dwd:design-time-name="eb35c809-fa16-4e2a-b574-a081ee597ccf">
           <AttributeID>GENDER</AttributeID>
           <Name>GENDER</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="5ff6ce05-9ec4-4d50-a22f-1444ef3ac447">
+        <AttributeRelationship dwd:design-time-name="fc0d92e0-9d29-4401-aa56-0bd1743ba1ec">
           <AttributeID>RURAL</AttributeID>
           <Name>RURAL</Name>
         </AttributeRelationship>
@@ -111,13 +111,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="5f71c443-47cb-414b-9e16-84c4154ce302">
+    <Attribute dwd:design-time-name="daf70a1d-1b28-4787-b679-68f69903fad9">
       <ID>AGE</ID>
       <Name>AGE</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="03846dcb-0865-400d-87be-767e229f7270">
+        <KeyColumn dwd:design-time-name="a3b4a77b-e890-4f7c-aae0-0a6a4401b5b8">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="35321365-888a-4182-af71-c5b09df92549">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ac49e7a0-29e0-4477-a7f3-86128935a99c">
             <TableID>dbo_PersonDW</TableID>
             <ColumnID>AGE</ColumnID>
           </Source>
@@ -126,14 +126,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c9bcfdf3-21ee-4ee9-b6c5-90360e6896bf">
+    <Attribute dwd:design-time-name="145096a5-10cb-4d74-abee-ae7a85a9030a">
       <ID>GENDER</ID>
       <Name>GENDER</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="87291bc6-3fd4-4dec-a124-2353f7c2ea07">
+        <KeyColumn dwd:design-time-name="d730b051-ca5e-4d72-bfa0-b87c1483a92f">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ab625f9a-24ae-4f8a-82a7-f61f95c44237">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="955f6324-48ea-41f7-bfb7-2b30482be0ec">
             <TableID>dbo_PersonDW</TableID>
             <ColumnID>GENDER</ColumnID>
           </Source>
@@ -142,14 +142,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4d94675b-d4d1-4640-ac8c-b5cc28177e9e">
+    <Attribute dwd:design-time-name="628d7497-e8ff-4d86-add3-ac3fbd33ba15">
       <ID>RURAL</ID>
       <Name>RURAL</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="b872ac0e-f790-475c-82ed-e02d42d68ca9">
+        <KeyColumn dwd:design-time-name="27adb31a-020f-47a0-b538-202ab1e235e9">
           <DataType>WChar</DataType>
           <DataSize>255</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4716009-5b8b-46ef-b060-d81d00d6363a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68f154f6-495d-4650-bba2-79440e22309b">
             <TableID>dbo_PersonDW</TableID>
             <ColumnID>RURAL</ColumnID>
           </Source>
@@ -160,14 +160,24 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="d341b2c8-7599-4ca1-bb2f-aa63fbba80ad">
+    <Hierarchy dwd:design-time-name="ac770dab-7952-4739-ac14-629b7ae2686d">
       <ID>Hierarchy</ID>
       <Name>PersonGroup</Name>
       <Levels>
-        <Level dwd:design-time-name="63dc5ed1-3456-4a01-a62b-716502c154bc">
-          <ID>Person ID</ID>
-          <Name>Person ID</Name>
-          <SourceAttributeID>Person ID</SourceAttributeID>
+        <Level dwd:design-time-name="cb52cc52-c3da-4446-aa25-4db9b44fdc83">
+          <ID>RURAL</ID>
+          <Name>RURAL</Name>
+          <SourceAttributeID>RURAL</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="13127867-e19d-464b-97e5-d9643b172dec">
+          <ID>GENDER</ID>
+          <Name>GENDER</Name>
+          <SourceAttributeID>GENDER</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="a3e9caa8-ef9d-45d8-b616-285056ef44f7">
+          <ID>AGE</ID>
+          <Name>AGE</Name>
+          <SourceAttributeID>AGE</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>

@@ -488,9 +488,19 @@
           <Name>PersonGroup</Name>
           <Levels>
             <Level>
-              <ID>Person ID</ID>
-              <Name>Person ID</Name>
-              <SourceAttributeID>Person ID</SourceAttributeID>
+              <ID>RURAL</ID>
+              <Name>RURAL</Name>
+              <SourceAttributeID>RURAL</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>GENDER</ID>
+              <Name>GENDER</Name>
+              <SourceAttributeID>GENDER</SourceAttributeID>
+            </Level>
+            <Level>
+              <ID>AGE</ID>
+              <Name>AGE</Name>
+              <SourceAttributeID>AGE</SourceAttributeID>
             </Level>
           </Levels>
         </Hierarchy>
