@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="5c5e97cd-899f-4a6e-87e3-e5676b1e8f3d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="17895800-657e-4d86-ad7a-5fc98005c950" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Habbit DW</ID>
   <Name>Habbit DW</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4258" scrolltop="-7292" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="16891" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4258" scrolltop="-7292" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="11557" y="14923" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="HabbitDW" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="HabbitDW" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3000" height="2307" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e0000b80b000003090000" />
             </control>
@@ -68,41 +68,41 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="0867a000-7735-4019-80b4-27180e1247c9">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="7888f4f1-ad94-40b2-8016-8125cff586fa">
     <DataSourceViewID>Final Project DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="d73787ad-6302-44af-95a3-df771f9b589e">
+  <ErrorConfiguration dwd:design-time-name="9b3df175-0716-4d67-84c4-21f9379b6607">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="eea9efb5-2ec1-4963-a6c7-c1ba3f63fbaa">
+    <Attribute dwd:design-time-name="d27937d0-0e1b-4f97-b612-1a2791728e29">
       <ID>Habbit ID</ID>
       <Name>Habbit ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="90d08957-9194-4b53-90a1-1e4b1f1eab79">
+        <KeyColumn dwd:design-time-name="9a7be9be-1f3a-4b86-94e3-6e78fad2a24c">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="ef47a87f-9522-4800-bee4-c5196d3e67c3">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="35da7967-1dcd-43f8-b8d6-745995340442">
             <TableID>dbo_HabbitDW</TableID>
             <ColumnID>HabbitID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="8e64e9e8-8c0d-4004-84c6-535e847d8576">
+        <AttributeRelationship dwd:design-time-name="a416ae86-306b-46bc-a039-b16accf3b794">
           <AttributeID>Habbit Name</AttributeID>
           <Name>Habbit Name</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="7e88f726-af2f-42f3-b801-1a4a10d4784c">
+        <AttributeRelationship dwd:design-time-name="ae33874e-b365-4b6b-b29c-f73a6d65af11">
           <AttributeID>SMOKING</AttributeID>
           <Name>SMOKING</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="093b1c52-7fc4-4f64-936b-67425f701b6c">
+        <AttributeRelationship dwd:design-time-name="d9298f26-5e81-400c-8d6f-9d34e933e7cc">
           <AttributeID>ALCOHO</AttributeID>
           <Name>ALCOHO</Name>
         </AttributeRelationship>
@@ -111,14 +111,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ac68fcbc-0364-4022-9807-70d0402206b1">
+    <Attribute dwd:design-time-name="e618ba49-df7c-439e-8076-19a263649d9b">
       <ID>Habbit Name</ID>
       <Name>Habbit Name</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ca37655a-4a60-415f-9ec7-481836943c98">
+        <KeyColumn dwd:design-time-name="c93036ef-bae6-4dfc-a66e-df04b4ecc756">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="20198ef1-123f-4bb1-b55c-3a14cd232a2c">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="94bf1e77-1131-4e24-bc51-ba794659354a">
             <TableID>dbo_HabbitDW</TableID>
             <ColumnID>HabbitName</ColumnID>
           </Source>
@@ -127,13 +127,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e638154f-6179-48ce-9c47-92190fa3c93c">
+    <Attribute dwd:design-time-name="8dd5d2cb-e916-4e91-a519-4b654d617ff5">
       <ID>SMOKING</ID>
       <Name>SMOKING</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="eea8d0db-0086-47db-877e-fbe1bf062d95">
+        <KeyColumn dwd:design-time-name="fe7b4d02-7f2c-474f-a204-77bb0693530a">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c4bcf61-f6f9-4259-b57c-11621b4f9219">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8620651c-410e-4d08-a976-ea834c8d76af">
             <TableID>dbo_HabbitDW</TableID>
             <ColumnID>SMOKING</ColumnID>
           </Source>
@@ -142,13 +142,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="63876a8c-4401-42a5-be15-2507c4f0b2ff">
+    <Attribute dwd:design-time-name="462d54e0-3381-4fd0-96ba-17064b6c45b4">
       <ID>ALCOHO</ID>
       <Name>ALCOHO</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="847d1852-055e-423c-b82d-c48c428bab95">
+        <KeyColumn dwd:design-time-name="ecb16b1b-db19-455a-a231-0cbdc6ce4b44">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="cae9979f-220b-496c-b3e4-98311f483160">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8fbc28c1-00da-4240-aaf2-88ccc7da7c53">
             <TableID>dbo_HabbitDW</TableID>
             <ColumnID>ALCOHO</ColumnID>
           </Source>
@@ -159,32 +159,32 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="612a44e0-ec23-4cb6-993c-3c17b5925068">
+    <Hierarchy dwd:design-time-name="2b42c91c-b285-473c-b56f-c19c866c87f0">
       <ID>Hierarchy</ID>
-      <Name>Smoking</Name>
+      <Name>SmokingHabbit</Name>
       <Levels>
-        <Level dwd:design-time-name="13b87e92-dbe6-40f8-af3f-b2497f316a21">
+        <Level dwd:design-time-name="f17d73bc-fe2d-4800-b180-72c288d38e26">
           <ID>Habbit Name</ID>
           <Name>Habbit Name</Name>
           <SourceAttributeID>Habbit Name</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="431555ce-f675-459e-95c0-a147dee0e5eb">
+        <Level dwd:design-time-name="8cc70b95-d83d-416a-904b-4197a631f58b">
           <ID>SMOKING</ID>
           <Name>SMOKING</Name>
           <SourceAttributeID>SMOKING</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="54e865e8-2e81-40e1-8b96-a6a2845b5ec7">
+    <Hierarchy dwd:design-time-name="86495c05-69d1-4a99-b6c4-0cc7768354ee">
       <ID>Hierarchy 1</ID>
-      <Name>Alcohol</Name>
+      <Name>AlcoholHabbit</Name>
       <Levels>
-        <Level dwd:design-time-name="8661e47c-081b-4b14-bcd7-0693b94e088b">
+        <Level dwd:design-time-name="f7d7e433-33b4-4ddf-b442-92fd5ab97e04">
           <ID>Habbit Name</ID>
           <Name>Habbit Name</Name>
           <SourceAttributeID>Habbit Name</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="ce461fda-dc1d-4de5-86ff-fc179b8d862a">
+        <Level dwd:design-time-name="60715ea0-c719-4565-8396-ef57af7a30ef">
           <ID>ALCOHO</ID>
           <Name>ALCOHO</Name>
           <SourceAttributeID>ALCOHO</SourceAttributeID>
