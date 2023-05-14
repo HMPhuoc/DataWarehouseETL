@@ -114,15 +114,15 @@ CREATE TABLE [dbo].[DeathReport](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
 	[DeathTime] [datetime],
-	[DeathPersonID] [int] 
+	[DeathPersonID] [int] references DeathPersonData(DeathPersonID)
 )
 
 GO
 CREATE TABLE [dbo].[DiagnosisReport](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
-	[TimeID] [int],
-	[PersonID] [int] ,
-	[AmneID] [int],
+	[TimeID] [int] references AdmissionTimeData(TimeID),
+	[PersonID] [int] references PersonData(PersonID) ,
+	[AmneID] [int] references AnaemiaData(AmneID),
 	[DiagnosisID] [int]
 )
