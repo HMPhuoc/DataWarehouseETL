@@ -96,11 +96,11 @@ GO
 CREATE TABLE [dbo].[AdmissionReport](
 	[SNO] [int] primary key,
 	[MRD No#] [int],
-	[TimeID] [int],
-	[PersonID] [int],
-	[HealthID] [int],
-	[AmneID] [int],
-	[HabbitID] [int]
+	[TimeID] [int] references AdmissionTimeData(TimeID),
+	[PersonID] [int] references PersonData(PersonID),
+	[HealthID] [int] references PersonalHealthData(HealthID),
+	[AmneID] [int] references AnaemiaData(AmneID),
+	[HabbitID] [int] references HabbitData(HabbitID)
 )
 GO
 CREATE TABLE [dbo].[DeathPersonData](
