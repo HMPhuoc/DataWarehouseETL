@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="DataWarehouse"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{CFE18676-3A3D-43E0-971B-1C699F20CD94}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{1143C366-4DE0-4539-BA0F-3B71FE239CF6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -4535,21 +4535,21 @@
         <NodeLayout
           Size="140.8,41.6"
           Id="Package\Stage to Fact"
-          TopLeft="431.42857234697,136.882352821194" />
+          TopLeft="566.42857263435,135.352941057829" />
         <EdgeLayout
           Id="Package.PrecedenceConstraints[Constraint]"
-          TopLeft="329.685714624792,156.917646939511">
+          TopLeft="329.685714624792,156.152941057829">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="101.742857722178,0"
+              EndConnector="236.742858009558,0"
               Start="0,0"
-              End="94.2428577221779,0">
+              End="229.242858009558,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="94.2428577221779,0" />
+                    End="229.242858009558,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4569,150 +4569,62 @@
         <NodeLayout
           Size="161.6,41.6"
           Id="Package\Stage to Dimension\StageTimeData"
-          TopLeft="172.85714322511,16.0588235153356" />
+          TopLeft="503.214286785497,58.8823528895638" />
         <NodeLayout
           Size="160.8,42.4"
           Id="Package\Stage to Dimension\StageAnaemiaData"
-          TopLeft="172.85714322511,80.2941175766779" />
-        <NodeLayout
-          Size="159.2,41.6"
-          Id="Package\Stage to Dimension\StagePersonData"
-          TopLeft="170.714286077692,138.305882320767" />
-        <NodeLayout
-          Size="157.6,41.6"
-          Id="Package\Stage to Dimension\StageHealthData"
-          TopLeft="165.714286067048,262.188235153356" />
-        <NodeLayout
-          Size="172,41.6"
-          Id="Package\Stage to Dimension\StageDiagnosisData"
-          TopLeft="165.714286067048,333.19999988605" />
-        <NodeLayout
-          Size="187.2,41.6"
-          Id="Package\Stage to Dimension\StageDeathPersonData"
-          TopLeft="162.857143203823,390.552941012248" />
-        <NodeLayout
-          Size="157.6,41.6"
-          Id="Package\Stage to Dimension\StageHabbitData"
-          TopLeft="166.428571782854,195.364705733548" />
+          TopLeft="503.214286785497,123.117646950906" />
         <NodeLayout
           Size="118.4,41.6"
           Id="Package\Stage to Dimension\TimeDW"
-          TopLeft="514.071429654044,15.1572889978655" />
+          TopLeft="844.428573214429,57.9808183720938" />
         <NodeLayout
-          Size="136,41.6"
-          Id="Package\Stage to Dimension\AnaemiaDW"
-          TopLeft="515.500001021794,78.804347791902" />
-        <NodeLayout
-          Size="132,41.6"
-          Id="Package\Stage to Dimension\PersonData"
-          TopLeft="517.857143959525,138.094117793183" />
-        <NodeLayout
-          Size="131.2,41.6"
-          Id="Package\Stage to Dimension\HabbitData"
-          TopLeft="519.285715327275,201.74117658722" />
-        <NodeLayout
-          Size="125.6,41.6"
-          Id="Package\Stage to Dimension\HealthDW"
-          TopLeft="522.857143970168,266.564705915868" />
+          Size="172,41.6"
+          Id="Package\Stage to Dimension\StageDiagnosisData"
+          TopLeft="496.071429627435,376.023529260278" />
         <NodeLayout
           Size="140,41.6"
           Id="Package\Stage to Dimension\DiagnosisDW"
-          TopLeft="524.285715337919,330.211764709904" />
+          TopLeft="854.642858898304,373.035294084132" />
+        <NodeLayout
+          Size="131.2,41.6"
+          Id="Package\Stage to Dimension\HabbitData"
+          TopLeft="849.64285888766,244.564705961448" />
+        <NodeLayout
+          Size="159.2,41.6"
+          Id="Package\Stage to Dimension\StagePersonData"
+          TopLeft="501.071429638078,181.129411694995" />
+        <NodeLayout
+          Size="157.6,41.6"
+          Id="Package\Stage to Dimension\StageHabbitData"
+          TopLeft="496.78571534324,238.188235107776" />
+        <NodeLayout
+          Size="125.6,41.6"
+          Id="Package\Stage to Dimension\HealthDW"
+          TopLeft="853.214287530553,309.388235290096" />
+        <NodeLayout
+          Size="132,41.6"
+          Id="Package\Stage to Dimension\PersonData"
+          TopLeft="848.21428751991,180.917647167411" />
+        <NodeLayout
+          Size="157.6,41.6"
+          Id="Package\Stage to Dimension\StageHealthData"
+          TopLeft="496.071429627434,305.011764527584" />
+        <NodeLayout
+          Size="136,41.6"
+          Id="Package\Stage to Dimension\AnaemiaDW"
+          TopLeft="845.857144582179,121.62787716613" />
+        <NodeLayout
+          Size="187.2,41.6"
+          Id="Package\Stage to Dimension\StageDeathPersonData"
+          TopLeft="493.21428676421,433.376470386476" />
         <NodeLayout
           Size="155.2,41.6"
           Id="Package\Stage to Dimension\DeathPersonDW"
-          TopLeft="530.000001128231,391.976470511822" />
-        <EdgeLayout
-          Id="Package\Stage to Dimension.Paths[OLE DB Source Output]"
-          TopLeft="334.45714322511,36.4080562566005">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="179.614286428933,0"
-              Start="0,0"
-              End="172.114286428933,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="172.114286428933,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Stage to Dimension.Paths[OLE DB Source Output1]"
-          TopLeft="333.65714322511,100.54923268429">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="181.842857796684,0"
-              Start="0,0"
-              End="174.342857796684,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="174.342857796684,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Stage to Dimension.Paths[OLE DB Source Output2]"
-          TopLeft="329.914286077692,159.000000056975">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="187.942857881833,0"
-              Start="0,0"
-              End="180.442857881833,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="180.442857881833,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <EdgeLayout
-          Id="Package\Stage to Dimension.Paths[OLE DB Source Output3]"
-          TopLeft="324.028571782854,219.352941160384">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="195.257143544421,0"
-              Start="0,0"
-              End="187.757143544421,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="187.757143544421,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
+          TopLeft="860.357144688616,434.79999988605" />
         <EdgeLayout
           Id="Package\Stage to Dimension.Paths[OLE DB Source Output4]"
-          TopLeft="323.314286067048,285.176470534612">
+          TopLeft="653.671429627434,327.99999990884">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -4733,19 +4645,85 @@
           </EdgeLayout.Labels>
         </EdgeLayout>
         <EdgeLayout
-          Id="Package\Stage to Dimension.Paths[OLE DB Source Output5]"
-          TopLeft="337.714286067048,352.505882297977">
+          Id="Package\Stage to Dimension.Paths[OLE DB Source Output3]"
+          TopLeft="654.38571534324,262.176470534612">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="186.571429270871,0"
+              EndConnector="195.257143544421,0"
               Start="0,0"
-              End="179.071429270871,0">
+              End="187.757143544421,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="179.071429270871,0" />
+                    End="187.757143544421,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Stage to Dimension.Paths[OLE DB Source Output2]"
+          TopLeft="660.271429638078,201.823529431203">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="187.942857881833,0"
+              Start="0,0"
+              End="180.442857881833,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="180.442857881833,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Stage to Dimension.Paths[OLE DB Source Output1]"
+          TopLeft="664.014286785496,143.372762058518">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="181.842857796684,0"
+              Start="0,0"
+              End="174.342857796684,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="174.342857796684,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Stage to Dimension.Paths[OLE DB Source Output]"
+          TopLeft="664.814286785496,79.2315856308287">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="179.614286428933,0"
+              Start="0,0"
+              End="172.114286428933,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="172.114286428933,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4756,7 +4734,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\Stage to Dimension.Paths[OLE DB Source Output6]"
-          TopLeft="350.057143203823,412.064705762035">
+          TopLeft="680.414286764209,454.888235136263">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -4776,96 +4754,20 @@
             <EdgeLabelCollection />
           </EdgeLayout.Labels>
         </EdgeLayout>
-      </GraphLayout>
-    </LayoutInfo>
-  </TaskHost>
-  <TaskHost
-    design-time-name="Package\Stage to Fact">
-    <LayoutInfo>
-      <GraphLayout
-        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
-        <NodeLayout
-          Size="152.8,41.6"
-          Id="Package\Stage to Fact\AdmissionStage"
-          TopLeft="291.499995738268,126.49999819696" />
-        <NodeLayout
-          Size="142.4,41.6"
-          Id="Package\Stage to Fact\AdmissionDW"
-          TopLeft="587.499991245568,127.499998100102" />
         <EdgeLayout
-          Id="Package\Stage to Fact.Paths[OLE DB Source Output]"
-          TopLeft="444.299995738268,147.799998148531">
+          Id="Package\Stage to Dimension.Paths[OLE DB Source Output5]"
+          TopLeft="668.071429627434,395.329411672205">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
-              EndConnector="143.1999955073,0"
+              EndConnector="186.571429270871,0"
               Start="0,0"
-              End="135.6999955073,0">
+              End="179.071429270871,0">
               <mssgle:Curve.Segments>
                 <mssgle:SegmentCollection
                   Capacity="5">
                   <mssgle:LineSegment
-                    End="135.6999955073,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="149.6,41.6"
-          Id="Package\Stage to Fact\DiagnosisStage"
-          TopLeft="291.499995738268,229.099998100102" />
-        <NodeLayout
-          Size="140,41.6"
-          Id="Package\Stage to Fact\DiagnosisDW"
-          TopLeft="587.499991245568,230.099998003244" />
-        <EdgeLayout
-          Id="Package\Stage to Fact.Paths[OLE DB Source Output1]"
-          TopLeft="441.099995738268,250.399998051673">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="146.3999955073,0"
-              Start="0,0"
-              End="138.8999955073,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="138.8999955073,0" />
-                </mssgle:SegmentCollection>
-              </mssgle:Curve.Segments>
-            </mssgle:Curve>
-          </EdgeLayout.Curve>
-          <EdgeLayout.Labels>
-            <EdgeLabelCollection />
-          </EdgeLayout.Labels>
-        </EdgeLayout>
-        <NodeLayout
-          Size="132.8,41.6"
-          Id="Package\Stage to Fact\DeathStage"
-          TopLeft="291.499995738268,331.699998003244" />
-        <NodeLayout
-          Size="123.2,41.6"
-          Id="Package\Stage to Fact\DeathDW"
-          TopLeft="587.499991245568,332.699997906387" />
-        <EdgeLayout
-          Id="Package\Stage to Fact.Paths[OLE DB Source Output2]"
-          TopLeft="424.299995738268,352.999997954816">
-          <EdgeLayout.Curve>
-            <mssgle:Curve
-              StartConnector="{assembly:Null}"
-              EndConnector="163.1999955073,0"
-              Start="0,0"
-              End="155.6999955073,0">
-              <mssgle:Curve.Segments>
-                <mssgle:SegmentCollection
-                  Capacity="5">
-                  <mssgle:LineSegment
-                    End="155.6999955073,0" />
+                    End="179.071429270871,0" />
                 </mssgle:SegmentCollection>
               </mssgle:Curve.Segments>
             </mssgle:Curve>
@@ -4904,20 +4806,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\StagePersonData">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\StageHealthData">
+    design-time-name="Package\Stage to Dimension\TimeDW">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -4943,59 +4832,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\StageDeathPersonData">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\StageHabbitData">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\TimeDW">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\AnaemiaDW">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\PersonData">
+    design-time-name="Package\Stage to Dimension\DiagnosisDW">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5021,6 +4858,32 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
+    design-time-name="Package\Stage to Dimension\StagePersonData">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage to Dimension\StageHabbitData">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
     design-time-name="Package\Stage to Dimension\HealthDW">
     <Properties>
       <Property>
@@ -5034,7 +4897,46 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage to Dimension\DiagnosisDW">
+    design-time-name="Package\Stage to Dimension\PersonData">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage to Dimension\StageHealthData">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage to Dimension\AnaemiaDW">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage to Dimension\StageDeathPersonData">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5059,21 +4961,106 @@
       </Property>
     </Properties>
   </PipelineComponentMetadata>
+  <TaskHost
+    design-time-name="Package\Stage to Fact">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="152.8,41.6"
+          Id="Package\Stage to Fact\AdmissionStage"
+          TopLeft="644.499990478158,142.499997958541" />
+        <NodeLayout
+          Size="149.6,41.6"
+          Id="Package\Stage to Fact\DiagnosisStage"
+          TopLeft="644.499990478158,245.099997861683" />
+        <NodeLayout
+          Size="142.4,41.6"
+          Id="Package\Stage to Fact\AdmissionDW"
+          TopLeft="940.499985985458,143.499997861683" />
+        <NodeLayout
+          Size="132.8,41.6"
+          Id="Package\Stage to Fact\DeathStage"
+          TopLeft="644.499990478158,347.699997764825" />
+        <NodeLayout
+          Size="140,41.6"
+          Id="Package\Stage to Fact\DiagnosisDW"
+          TopLeft="940.499985985458,246.099997764825" />
+        <NodeLayout
+          Size="123.2,41.6"
+          Id="Package\Stage to Fact\DeathDW"
+          TopLeft="940.499985985458,348.699997667968" />
+        <EdgeLayout
+          Id="Package\Stage to Fact.Paths[OLE DB Source Output2]"
+          TopLeft="777.299990478158,368.999997716398">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="163.1999955073,0"
+              Start="0,0"
+              End="155.6999955073,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="155.6999955073,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Stage to Fact.Paths[OLE DB Source Output1]"
+          TopLeft="794.099990478158,266.399997813254">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="146.3999955073,0"
+              Start="0,0"
+              End="138.8999955073,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="138.8999955073,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\Stage to Fact.Paths[OLE DB Source Output]"
+          TopLeft="797.299990478158,163.799997910112">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="143.1999955073,0"
+              Start="0,0"
+              End="135.6999955073,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="135.6999955073,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
   <PipelineComponentMetadata
     design-time-name="Package\Stage to Fact\AdmissionStage">
-    <Properties>
-      <Property>
-        <Name>DataSourceViewID</Name>
-      </Property>
-      <Property>
-        <Name>TableInfoObjectType</Name>
-        <Value
-          type="q2:string">Table</Value>
-      </Property>
-    </Properties>
-  </PipelineComponentMetadata>
-  <PipelineComponentMetadata
-    design-time-name="Package\Stage to Fact\AdmissionDW">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5099,7 +5086,7 @@
     </Properties>
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
-    design-time-name="Package\Stage to Fact\DiagnosisDW">
+    design-time-name="Package\Stage to Fact\AdmissionDW">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
@@ -5113,6 +5100,19 @@
   </PipelineComponentMetadata>
   <PipelineComponentMetadata
     design-time-name="Package\Stage to Fact\DeathStage">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\Stage to Fact\DiagnosisDW">
     <Properties>
       <Property>
         <Name>DataSourceViewID</Name>
