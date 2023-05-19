@@ -75,7 +75,7 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>UW+ZVcpIHoit1z622DUISg7SAZs=07-May-23 5:34:57 PM07-May-23 5:00:50 PM</TimeStamp>
+        <TimeStamp>lWRHdOmh55QGAQsCraOX5iGnZLo=16-May-23 10:51:59 PM07-May-23 5:00:50 PM</TimeStamp>
         <ID>
           <String>Diagnosis DW</String>
         </ID>
@@ -99,5 +99,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2023-05-10T14:04:46.403333Z</LastDeployed>
+  <LastDeployed>2023-05-16T20:50:13.71Z</LastDeployed>
 </DeploymentSnapshot>

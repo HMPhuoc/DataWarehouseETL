@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="8fc0ed56-b6ba-48e7-a3f2-9ede528c4d9e" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="e68bd978-909f-45e5-a9dc-c34ebb5f364b" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Diagnosis DW</ID>
   <Name>Diagnosis DW</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2911" scrolltop="-5945" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9631" y="16891" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2911" scrolltop="-5945" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10012" y="15642" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DiagnosisDW" left="-86" top="64" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="5694" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DiagnosisDW" left="-1631" top="-1693" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="5694" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="000e00003e16000088130000" />
             </control>
@@ -55,11 +55,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-86</Value>
+      <Value>-1631</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>64</Value>
+      <Value>-1693</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -68,133 +68,133 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6c6c390f-a1a7-4f5f-9df5-15db13ea40b5">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="9373513c-76ed-4025-b950-308d92772dde">
     <DataSourceViewID>Final Project DW</DataSourceViewID>
   </Source>
   <UnknownMember>Visible</UnknownMember>
-  <ErrorConfiguration dwd:design-time-name="91b1196f-11db-44ca-953e-2d83259e18f6">
+  <ErrorConfiguration dwd:design-time-name="51f23696-bff2-4437-a983-e755201f58ec">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="cf1532f5-ddc8-4c8a-805b-24dadf12e040">
+    <Attribute dwd:design-time-name="37df6477-3148-428c-915a-5bf77ef0af4c">
       <ID>Diag ID</ID>
       <Name>Diag ID</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="6791aa1c-ceaf-485d-9a18-9cd757891f01">
+        <KeyColumn dwd:design-time-name="c77a0470-0a69-4491-b9ad-1b78a00ddad7">
           <DataType>Integer</DataType>
           <NullProcessing>UnknownMember</NullProcessing>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9dd6a1b4-ab52-4894-91b9-c7227fea0837">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="66b9f675-c0aa-4052-bc23-66011d0227c1">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>DiagID</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="fb2c9a08-4c93-46c8-be4d-ec3bd3182b0b">
+        <AttributeRelationship dwd:design-time-name="1a640863-8c0e-4f72-a48d-b7f2ece78fca">
           <AttributeID>STABLE ANGINA</AttributeID>
           <Name>STABLE ANGINA</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a7f13d62-2e75-4021-ba1e-b28832470580">
+        <AttributeRelationship dwd:design-time-name="1b0e9212-0a1e-4436-ac1b-faef3df90d41">
           <AttributeID>ACS</AttributeID>
           <Name>ACS</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e5948aa0-a700-4946-9aa5-7b7d04a260ea">
+        <AttributeRelationship dwd:design-time-name="f7f73c8f-e8fc-454c-8046-9e054248cb63">
           <AttributeID>STEMI</AttributeID>
           <Name>STEMI</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f9c6efe3-4d1a-4b45-ba0a-f84c5980f758">
+        <AttributeRelationship dwd:design-time-name="f35bcabe-0a6b-4a6a-b385-efe93aa06fc2">
           <AttributeID>ATYPICAL CHEST PAIN</AttributeID>
           <Name>ATYPICAL CHEST PAIN</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="b54905c2-9242-47e8-9517-93f66a4fea45">
+        <AttributeRelationship dwd:design-time-name="29312646-6958-4c71-a356-68732dc711ab">
           <AttributeID>HEART FAILURE</AttributeID>
           <Name>HEART FAILURE</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="219a64e8-19e0-4ede-b34f-7d0351f95657">
+        <AttributeRelationship dwd:design-time-name="78a2fd74-e535-458f-b3e0-59d9b826e99e">
           <AttributeID>HFREF</AttributeID>
           <Name>HFREF</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="bf97c4de-9a6d-4e1b-8151-575e01fc607d">
+        <AttributeRelationship dwd:design-time-name="a8fdba95-6efe-45ba-bc6f-a0e34b4195bf">
           <AttributeID>HFNEF</AttributeID>
           <Name>HFNEF</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="83e86b4b-1140-42e5-9db8-47885a8be9a4">
+        <AttributeRelationship dwd:design-time-name="5371da8b-bbbf-4a78-ae3c-38fb13facb60">
           <AttributeID>VALVULAR</AttributeID>
           <Name>VALVULAR</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="a7803769-bac0-45af-8de8-e8d0cc19a2fe">
+        <AttributeRelationship dwd:design-time-name="8c09f2e2-2234-4041-a447-138a00cf6fe8">
           <AttributeID>CHB</AttributeID>
           <Name>CHB</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d973cfdc-5993-466b-b4b3-60e72614b085">
+        <AttributeRelationship dwd:design-time-name="563b7b07-5171-4a14-8105-b255c3954181">
           <AttributeID>SSS</AttributeID>
           <Name>SSS</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="82a6b770-9e31-4cb8-9953-a543d145d13b">
+        <AttributeRelationship dwd:design-time-name="34726be7-e62e-4c43-a2db-791059e2047d">
           <AttributeID>AKI</AttributeID>
           <Name>AKI</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="9a2556e4-6468-4704-a6b1-4b486325fcce">
+        <AttributeRelationship dwd:design-time-name="7e17fb1d-00d4-4602-8697-270da83a1383">
           <AttributeID>CVA INFRACT</AttributeID>
           <Name>CVA INFRACT</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="6084aee7-b2ff-4423-b77c-78961dc070b5">
+        <AttributeRelationship dwd:design-time-name="31286be4-9455-46a7-adfb-640cb4979c9b">
           <AttributeID>CVA BLEED</AttributeID>
           <Name>CVA BLEED</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f84a1a62-e941-43f9-84e0-60d87cac7984">
+        <AttributeRelationship dwd:design-time-name="3b59afa8-78c6-4e33-9058-51ab6834b005">
           <AttributeID>AF</AttributeID>
           <Name>AF</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="474775a7-3153-46c1-9b63-b5bc9c5f742b">
+        <AttributeRelationship dwd:design-time-name="2391b6c7-ea57-43fd-8523-cda2176b501e">
           <AttributeID>VT</AttributeID>
           <Name>VT</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="157fe751-0775-4f48-a69e-d29efae350b2">
+        <AttributeRelationship dwd:design-time-name="ee358096-0d42-4d59-9a3a-bcb26444aec7">
           <AttributeID>PSVT</AttributeID>
           <Name>PSVT</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="360f8fea-ea1a-459a-8cde-6999555c274e">
+        <AttributeRelationship dwd:design-time-name="3d36e2fd-e05f-4b7c-a369-79a9d9408d35">
           <AttributeID>CONGENITAL</AttributeID>
           <Name>CONGENITAL</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="e17be4f8-a762-488b-940c-3283c6646c10">
+        <AttributeRelationship dwd:design-time-name="7ce4e2da-d71c-4843-b4e8-099f41b27cbc">
           <AttributeID>UTI</AttributeID>
           <Name>UTI</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2535ef9c-868d-47a7-bbd1-e813bf8d7284">
+        <AttributeRelationship dwd:design-time-name="55f383e2-2731-42c9-9c9d-2288c2c3e679">
           <AttributeID>NEURO CARDIOGENIC SYNCOPE</AttributeID>
           <Name>NEURO CARDIOGENIC SYNCOPE</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d02437fa-ea0d-4831-a0b8-cbf1e260a9ce">
+        <AttributeRelationship dwd:design-time-name="5705ad9f-e799-4ace-8c21-939849f88655">
           <AttributeID>ORTHOSTATIC</AttributeID>
           <Name>ORTHOSTATIC</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="c01b6bda-1d99-4a72-9f42-ace7ec3424a9">
+        <AttributeRelationship dwd:design-time-name="cd9e197e-a059-4f38-8304-882de9eb1060">
           <AttributeID>INFECTIVE ENDOCARDITIS</AttributeID>
           <Name>INFECTIVE ENDOCARDITIS</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="664e482a-7ff2-4e6e-ac4b-5c94bec528aa">
+        <AttributeRelationship dwd:design-time-name="5e236f91-50ee-4c46-9b35-775f3ce31018">
           <AttributeID>DVT</AttributeID>
           <Name>DVT</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="d6947b98-c743-4993-81aa-df79a1682a85">
+        <AttributeRelationship dwd:design-time-name="f9e2256a-1dd8-428d-8de0-b7c6794e725b">
           <AttributeID>CARDIOGENIC SHOCK</AttributeID>
           <Name>CARDIOGENIC SHOCK</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="332442ba-9d04-416d-b118-efcf33387682">
+        <AttributeRelationship dwd:design-time-name="c6d061e7-5c09-4748-be2b-1f2be696279d">
           <AttributeID>SHOCK</AttributeID>
           <Name>SHOCK</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="67524204-21d4-49d2-891d-03f28b366488">
+        <AttributeRelationship dwd:design-time-name="0cb2b5a9-71ff-466b-a8d5-1bfaad9290f0">
           <AttributeID>PULMONARY EMBOLISM</AttributeID>
           <Name>PULMONARY EMBOLISM</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2c493fd8-91ad-4385-95ac-1cf9bc732ea1">
+        <AttributeRelationship dwd:design-time-name="3424f56d-eec2-402a-8726-e2e71eeaba5a">
           <AttributeID>CHEST INFECTION</AttributeID>
           <Name>CHEST INFECTION</Name>
         </AttributeRelationship>
@@ -203,13 +203,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1b273be0-ade1-4801-9d01-c3c4d543ff87">
+    <Attribute dwd:design-time-name="11c04cc3-4746-4cd6-8927-2fe7971e6df6">
       <ID>STABLE ANGINA</ID>
       <Name>STABLE ANGINA</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4b3de134-58f5-4d61-b6b4-0eea46bd38b9">
+        <KeyColumn dwd:design-time-name="df8fca20-8ff8-4fda-b000-b94576442b25">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e08f3b18-b7d7-4183-addd-3653e70e13f7">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6ee6ee3b-79ca-4245-9e57-028eea99c92b">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>STABLE_x0020_ANGINA</ColumnID>
           </Source>
@@ -218,13 +218,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="f29e8393-18d3-43c3-9f32-072a36ffdd89">
+    <Attribute dwd:design-time-name="b67b5314-0459-4a5d-af47-da2dfb428304">
       <ID>ACS</ID>
       <Name>ACS</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9397e04d-5d9a-469a-98d0-89aca30b9d3a">
+        <KeyColumn dwd:design-time-name="5aa10e71-d884-4117-a95a-1898cfb69df4">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c6ee59a2-5de3-4a0b-a09e-4ffe96e85484">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3f9b107c-985c-4c52-b499-68c85abd309e">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>ACS</ColumnID>
           </Source>
@@ -233,13 +233,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4bbe412e-336c-48b6-aedf-d3e2f8abd917">
+    <Attribute dwd:design-time-name="a132771f-ff78-4a69-aa8f-a78bbac17ce6">
       <ID>STEMI</ID>
       <Name>STEMI</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="71c7ad57-d8f3-4e2b-898c-9fe09d95eea8">
+        <KeyColumn dwd:design-time-name="0f6a7bd2-3f6f-4a6a-b1f0-d1e48221f0e0">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="669c91a4-86d8-46e0-bd97-c33f3c911240">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2afd121b-80f1-46dd-b259-5cf806d7fecb">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>STEMI</ColumnID>
           </Source>
@@ -248,13 +248,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="86297d74-b735-4190-be23-2e995660a1c1">
+    <Attribute dwd:design-time-name="3d993eb2-7bd8-4180-807a-c6987ff67023">
       <ID>ATYPICAL CHEST PAIN</ID>
       <Name>ATYPICAL CHEST PAIN</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c26a27a1-5622-497d-913f-cd4470be6147">
+        <KeyColumn dwd:design-time-name="4a5f7a87-844f-4bb4-98a4-d0f0e1f76970">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d014553e-aabc-4f67-9d66-66174d19d926">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dca437c1-f470-436e-a3a6-a7bd9afe3c26">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>ATYPICAL_x0020_CHEST_x0020_PAIN</ColumnID>
           </Source>
@@ -263,13 +263,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1840e24e-718e-4793-87a5-5b3e350bba3c">
+    <Attribute dwd:design-time-name="66e46473-9600-4626-9465-1e584ea79d10">
       <ID>HEART FAILURE</ID>
       <Name>HEART FAILURE</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="650c66dd-948d-441e-a043-641ef7cef7d5">
+        <KeyColumn dwd:design-time-name="c6c4410d-554c-4727-9e7d-5094e54bcff2">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="d1027a5c-42f3-4c4a-8a54-8c98ca57e678">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="21b0aa9a-1bad-4fc9-9ccf-a687aa4ab1c0">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>HEART_x0020_FAILURE</ColumnID>
           </Source>
@@ -278,13 +278,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c8a35d3e-b4ba-48d2-9bb9-a838bb4c0aa7">
+    <Attribute dwd:design-time-name="58c67b98-7005-4aa9-981a-955483c514e6">
       <ID>HFREF</ID>
       <Name>HFREF</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ea0f3216-1f70-45bb-ac1c-197d1f98c834">
+        <KeyColumn dwd:design-time-name="e90724bf-f9cf-4fae-bec8-bc09004d5998">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9cc1f829-d73d-4f34-8d6d-02bec837301e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6a64b784-0ddc-49b7-864a-e43d6f3c25b2">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>HFREF</ColumnID>
           </Source>
@@ -293,13 +293,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="56d8f7b4-0daa-41c9-a3ed-19d07c52c440">
+    <Attribute dwd:design-time-name="4cbc5ad7-5d73-487a-9caf-b062551c201e">
       <ID>HFNEF</ID>
       <Name>HFNEF</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="1025cb98-18ab-491f-aa00-40c1150cb879">
+        <KeyColumn dwd:design-time-name="0104683e-771e-4b6a-bf16-21635e03fc49">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c282d8f0-1f14-44a0-9124-7428a94e2400">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="41850d3d-ad06-4b82-a00a-186259e2385c">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>HFNEF</ColumnID>
           </Source>
@@ -308,13 +308,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e45c26a4-85d6-4776-8288-bb7d3cffcb8d">
+    <Attribute dwd:design-time-name="aebf8cb8-d9e3-4a94-86de-cf99ad612a19">
       <ID>VALVULAR</ID>
       <Name>VALVULAR</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="10af213d-5ba8-41f9-bd7c-99b4ecfd4335">
+        <KeyColumn dwd:design-time-name="72273e4a-cbb1-4d14-b5fd-bb2dcaaac96a">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4a6a7465-b08f-43c9-a746-cdac6f96e4cd">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81f856c8-8e16-4143-9ade-2695e0803fe2">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>VALVULAR</ColumnID>
           </Source>
@@ -323,13 +323,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0c9cd9dc-f880-40a1-b166-d4c731ef1339">
+    <Attribute dwd:design-time-name="b62bb48b-78ff-4706-8a76-5000069893c3">
       <ID>CHB</ID>
       <Name>CHB</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a86eea9a-d5a3-4705-a5a3-1c3fde474a23">
+        <KeyColumn dwd:design-time-name="bb4e3b9e-c40d-4b2e-80a2-3a6543b4a259">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="e12d396a-7776-4c07-84f1-1f031f2b3442">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="08819f31-aca7-4cc1-8035-9319e98d4766">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>CHB</ColumnID>
           </Source>
@@ -338,13 +338,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c1b7f91f-e4ee-4cf0-9477-f0c6e88c4338">
+    <Attribute dwd:design-time-name="f8d76e17-d22c-4831-bb96-7758d8b6e416">
       <ID>SSS</ID>
       <Name>SSS</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="18321489-863b-4619-a394-f3698287de7d">
+        <KeyColumn dwd:design-time-name="6973623c-1d04-4d70-a0e5-f9e05d618157">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c323f95e-55b9-47e4-a458-396563e74461">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b66164ea-4914-4cbb-b76d-b101950c5c6c">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>SSS</ColumnID>
           </Source>
@@ -353,13 +353,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="726d3bc2-376e-4438-be70-0d1702b863c8">
+    <Attribute dwd:design-time-name="d94196ae-ed8f-49da-967a-e5f1c76a1a0b">
       <ID>AKI</ID>
       <Name>AKI</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="3e253395-e8f1-456f-bf8f-46363bca5676">
+        <KeyColumn dwd:design-time-name="ff56990b-6173-4972-b727-2863f984b7dc">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f75704f9-8a8e-4c2b-ad30-2ec73130adea">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4b2faa9f-dc85-44d9-97ae-518a3c7515b8">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>AKI</ColumnID>
           </Source>
@@ -368,13 +368,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="6e409ee9-0a60-4f67-b1db-f6556f80aa3f">
+    <Attribute dwd:design-time-name="57a31c77-bfac-44c3-88d0-1f8048641ee7">
       <ID>CVA INFRACT</ID>
       <Name>CVA INFRACT</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="8d3f54ed-9c19-44cf-be93-d2fb36b49d57">
+        <KeyColumn dwd:design-time-name="f3b7b526-c559-4896-9af8-a957537fec6d">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f631bcff-70a7-4620-af25-ad6b9cd0d42f">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e4955ec9-9a9a-43b5-b2ab-769eb98aaf40">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>CVA_x0020_INFRACT</ColumnID>
           </Source>
@@ -383,13 +383,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="cee6e1ce-396a-4558-8ace-f55452e9563a">
+    <Attribute dwd:design-time-name="b5a4ac47-da0b-4acf-b629-bbf8af3f76b3">
       <ID>CVA BLEED</ID>
       <Name>CVA BLEED</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="0b4e6008-19ca-44f5-8edd-1703f88cd972">
+        <KeyColumn dwd:design-time-name="04a6c884-416b-4b61-9d05-a75275303ac2">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="0c458010-fa33-4646-ba8f-4b943c0b1021">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="063f0764-541f-4a44-a7e5-f68ace3d14f0">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>CVA_x0020_BLEED</ColumnID>
           </Source>
@@ -398,13 +398,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2c18f7fc-e916-4d76-999b-f7a425b85557">
+    <Attribute dwd:design-time-name="c7aad9c2-3a77-4e11-9fed-eff06e08f24c">
       <ID>AF</ID>
       <Name>AF</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="a2ffaeca-33fd-4fa2-b5a2-3fc7f4d9ca62">
+        <KeyColumn dwd:design-time-name="4eb010cc-24bf-47f4-aec7-c24d37e3c851">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="916c0999-664a-4f73-9177-98a258575667">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f3d111de-8a86-40d1-9763-bc96cd36e4fe">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>AF</ColumnID>
           </Source>
@@ -413,13 +413,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="73b9e6c6-4d14-4e85-96d3-5efbab53fd12">
+    <Attribute dwd:design-time-name="65b4985f-396e-4392-a768-2b896bc397e5">
       <ID>VT</ID>
       <Name>VT</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="40e0f001-fa44-4e2b-9a83-0a231eae1ad9">
+        <KeyColumn dwd:design-time-name="5b90d34d-6030-4940-aa13-6e28348f3dd1">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="67f4bae5-7db2-4690-bfdd-c47eccdfe620">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d187621b-9a14-45ac-b95d-accaaf251ecf">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>VT</ColumnID>
           </Source>
@@ -428,13 +428,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="04a6f567-d55c-4306-af29-921201707d8d">
+    <Attribute dwd:design-time-name="c8b8bead-c350-46b8-9e1c-748b56364039">
       <ID>PSVT</ID>
       <Name>PSVT</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e82c2f43-d9b1-4180-807d-b9b8886822b7">
+        <KeyColumn dwd:design-time-name="aecd655e-042b-41de-90bb-582b1089b115">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="c3e88fa5-5f45-4cd9-a8f4-fc7d9942b163">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b1b2a1f5-db6c-4ed2-b93d-7db06c7d19b3">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>PSVT</ColumnID>
           </Source>
@@ -443,13 +443,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="7f135903-69ed-4e58-af4c-b6f4455b0c0e">
+    <Attribute dwd:design-time-name="99a79a78-26e9-4501-a5d7-966a774a0ba9">
       <ID>CONGENITAL</ID>
       <Name>CONGENITAL</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="023ebe19-600f-4df9-a330-e267832a7224">
+        <KeyColumn dwd:design-time-name="f55f466b-1748-4951-a8fa-b2e52d1ccb7b">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3d165318-05f9-449f-9cd8-2576a3cd2e2a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9f84490a-9132-42de-b434-fc342eed310e">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>CONGENITAL</ColumnID>
           </Source>
@@ -458,13 +458,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="eacabdcf-bb0c-42d7-bb2f-89dcbc52a6b7">
+    <Attribute dwd:design-time-name="3095445c-b8a8-4f1d-8870-8f9cc30462f7">
       <ID>UTI</ID>
       <Name>UTI</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="ef6ded9e-4b8c-4b61-90e0-be7b2308ab79">
+        <KeyColumn dwd:design-time-name="41595174-0161-4668-8778-df5d08ddaa9c">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a2acda69-0dbb-4db4-989e-d9049fdfa12b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9a9f5a55-8c5e-4c2c-83e1-57bca5d53a57">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>UTI</ColumnID>
           </Source>
@@ -473,13 +473,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="2548c5f1-52c7-4a21-9eb2-7208415d3b64">
+    <Attribute dwd:design-time-name="30fbe29a-5d39-4e0f-8f91-82f2a7614c6b">
       <ID>NEURO CARDIOGENIC SYNCOPE</ID>
       <Name>NEURO CARDIOGENIC SYNCOPE</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="47ca1d94-5f99-4228-9aa3-e8dd5e0b5bd3">
+        <KeyColumn dwd:design-time-name="09fb64e1-0089-486c-92c8-c14134bb7582">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="3938d768-b7f6-4606-854f-60a804c9ba4b">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="9ed7a441-c5ad-4282-9ecd-21300c781317">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>NEURO_x0020_CARDIOGENIC_x0020_SYNCOPE</ColumnID>
           </Source>
@@ -488,13 +488,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="ddd56dc7-cf2e-4f94-aaed-9d9280c01417">
+    <Attribute dwd:design-time-name="e70ca155-81df-4e28-9e7a-4ff097dcd566">
       <ID>ORTHOSTATIC</ID>
       <Name>ORTHOSTATIC</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f9e101a3-fb0f-46fd-ba15-ec92b4c0a5f2">
+        <KeyColumn dwd:design-time-name="b34c5487-c7df-429a-96a9-12f6a41c4782">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="871090e3-402e-4eab-90bc-599262233453">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8131b6bc-514c-481a-9db1-4965f2afe23d">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>ORTHOSTATIC</ColumnID>
           </Source>
@@ -503,13 +503,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="4905772d-662f-4ed9-8b10-ed27c7926ed0">
+    <Attribute dwd:design-time-name="6458fdeb-76e6-4364-b50a-20a5f3ca1517">
       <ID>INFECTIVE ENDOCARDITIS</ID>
       <Name>INFECTIVE ENDOCARDITIS</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f1da635c-a616-47b3-9bd8-d79311af8939">
+        <KeyColumn dwd:design-time-name="25ab1be2-514f-4d2b-9ae3-c710c22da591">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="db5667c9-fd12-4650-970d-7fcbed9337e8">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1c6dbfbf-b246-4e9e-8ae4-ff7222415e23">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>INFECTIVE_x0020_ENDOCARDITIS</ColumnID>
           </Source>
@@ -518,13 +518,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="360b1193-0ac6-4a5d-b96a-6a7811304742">
+    <Attribute dwd:design-time-name="efe9221f-79c8-44c0-9446-40a949899788">
       <ID>DVT</ID>
       <Name>DVT</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="c3343022-d2c4-4528-a2e7-47505f9a907f">
+        <KeyColumn dwd:design-time-name="72a9f2ef-7609-4172-9f8e-1d238f8a56fc">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="bd612de1-742d-44e0-9b87-1593632ad408">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="887b94dd-d6ae-46f9-b450-a373b635bc51">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>DVT</ColumnID>
           </Source>
@@ -533,13 +533,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="e196a9e5-ea1d-4ecf-a508-7885a9cc1957">
+    <Attribute dwd:design-time-name="ace9c08d-c82b-46d4-8dae-e47ff1e596eb">
       <ID>CARDIOGENIC SHOCK</ID>
       <Name>CARDIOGENIC SHOCK</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="abdf1b81-7e67-487b-a229-950b1db41589">
+        <KeyColumn dwd:design-time-name="4fb29d98-c104-4292-ab6c-a48c7e7ff5f8">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="80968cdf-ccd8-4c2b-a338-ea05402a505a">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c2925f8d-f7fe-4050-b518-b8c9fa0ad9ed">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>CARDIOGENIC_x0020_SHOCK</ColumnID>
           </Source>
@@ -548,13 +548,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="0579ac59-de97-422a-b41c-6657ffbb8783">
+    <Attribute dwd:design-time-name="1bff6ac1-d9b3-4637-b491-7a5b10189c2a">
       <ID>SHOCK</ID>
       <Name>SHOCK</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="f521f76f-aac7-477c-a81d-953cba0d12a9">
+        <KeyColumn dwd:design-time-name="4ba028bb-f96b-4a69-b0e5-199f1fc3e823">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="4495b79b-76b4-477f-9367-dbd7460767f6">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d97f6687-85da-4a7b-9888-55c874374466">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>SHOCK</ColumnID>
           </Source>
@@ -563,13 +563,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="89b1fb20-a34e-4aa7-b054-04274c5d35a9">
+    <Attribute dwd:design-time-name="3f4ebd65-1c5d-4c7e-a588-8d5c143b1e88">
       <ID>PULMONARY EMBOLISM</ID>
       <Name>PULMONARY EMBOLISM</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="9b1556fa-dbce-4fc4-bfeb-58f6ffea5cf6">
+        <KeyColumn dwd:design-time-name="5c49547c-2110-44f6-af06-0451053823a2">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="9204cfde-7bea-422a-9963-dd952eb9c1ef">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="794a0be6-b631-46f6-9571-4f9b96248fda">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>PULMONARY_x0020_EMBOLISM</ColumnID>
           </Source>
@@ -578,13 +578,13 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="c3d7395c-f733-4423-a534-ab0854793906">
+    <Attribute dwd:design-time-name="8d3c4288-21ec-42d2-9f4c-e4d537908919">
       <ID>CHEST INFECTION</ID>
       <Name>CHEST INFECTION</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="e591813b-13d5-41ee-a161-5db88759cb62">
+        <KeyColumn dwd:design-time-name="18680eba-b197-4b7c-9eed-4b514fc8c26a">
           <DataType>Boolean</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="caea5cef-0811-4e94-bfcf-b6717c75336d">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="84747a6f-5478-4839-ad57-8863b0f104e4">
             <TableID>dbo_DiagnosisDW</TableID>
             <ColumnID>CHEST_x0020_INFECTION</ColumnID>
           </Source>
@@ -595,101 +595,101 @@
     </Attribute>
   </Attributes>
   <Hierarchies>
-    <Hierarchy dwd:design-time-name="daa80fc7-3020-4f82-ab32-648ed9cdd4ea">
+    <Hierarchy dwd:design-time-name="37f7d54e-60e8-45c6-b8cf-55a94a2d33db">
       <ID>Hierarchy</ID>
       <Name>HeartFailureNEF</Name>
       <Levels>
-        <Level dwd:design-time-name="f4c075bb-e261-44ed-8e10-e82db546811c">
+        <Level dwd:design-time-name="b55e5cea-91d4-4ec9-a07a-ba1b2a291c9e">
           <ID>HEART FAILURE</ID>
           <Name>HEART FAILURE</Name>
           <SourceAttributeID>HEART FAILURE</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="55725b49-8e0d-41cd-9c5d-ef0a00fa1886">
+        <Level dwd:design-time-name="04e861cc-70d8-4d56-a62b-191645ab3a84">
           <ID>HFNEF</ID>
           <Name>HFNEF</Name>
           <SourceAttributeID>HFNEF</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="f9d228b0-2e50-42ee-8435-11fe9365ccd8">
+    <Hierarchy dwd:design-time-name="a3a43351-d56f-4402-8f43-42ee9cdfff70">
       <ID>Hierarchy 1</ID>
       <Name>HeartFailureREF</Name>
       <Levels>
-        <Level dwd:design-time-name="efee5987-7437-4e06-87cc-9194c46f8073">
+        <Level dwd:design-time-name="78366b1d-9ffd-4bbe-ba03-fa364fb36efd">
           <ID>HEART FAILURE</ID>
           <Name>HEART FAILURE</Name>
           <SourceAttributeID>HEART FAILURE</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="5721f6d0-300e-4910-b684-628a46c42847">
+        <Level dwd:design-time-name="49507db3-1244-4671-a086-349cd2de37de">
           <ID>HFREF</ID>
           <Name>HFREF</Name>
           <SourceAttributeID>HFREF</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="91616d54-b9e6-41e1-a46e-25a2b6cd6e29">
+    <Hierarchy dwd:design-time-name="6e6ab882-2255-4411-ad49-490caac1a47d">
       <ID>Hierarchy 2</ID>
       <Name>HeartShock</Name>
       <Levels>
-        <Level dwd:design-time-name="28797fd3-d169-47fa-a50d-4b30570688a1">
+        <Level dwd:design-time-name="77a89413-d980-4323-bfe5-e571da10bad3">
           <ID>SHOCK</ID>
           <Name>SHOCK</Name>
           <SourceAttributeID>SHOCK</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="32ae0e8d-1118-450d-9646-741e644f96cd">
+        <Level dwd:design-time-name="638d725c-fbc0-42bd-861a-3c74f0e0e696">
           <ID>CARDIOGENIC SHOCK</ID>
           <Name>CARDIOGENIC SHOCK</Name>
           <SourceAttributeID>CARDIOGENIC SHOCK</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="12f17ce6-ed05-44f7-98dd-0cfc70607ca5">
+    <Hierarchy dwd:design-time-name="0d38e401-0459-4075-b3b1-a66b3bf914e4">
       <ID>Hierarchy 3</ID>
       <Name>HeartRate</Name>
       <Levels>
-        <Level dwd:design-time-name="ef04b031-77f7-4d46-81b5-fea92f677882">
+        <Level dwd:design-time-name="54e643fa-454f-4e74-990e-b182b73fc6d1">
           <ID>CONGENITAL</ID>
           <Name>CONGENITAL</Name>
           <SourceAttributeID>CONGENITAL</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="bbc32ae6-fd41-4e33-afd6-22a970fe609d">
+        <Level dwd:design-time-name="c347e848-583a-4097-8686-0d76e226dca5">
           <ID>PSVT</ID>
           <Name>PSVT</Name>
           <SourceAttributeID>PSVT</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="857843ef-20e4-409f-bdc4-7f07d447e50e">
+        <Level dwd:design-time-name="48a47623-edf2-4019-9e81-b0da0c730de6">
           <ID>VT</ID>
           <Name>VT</Name>
           <SourceAttributeID>VT</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="57119e89-bfca-4580-aa3d-029184f7b96a">
+    <Hierarchy dwd:design-time-name="143d1d9b-bf58-420b-add7-3f710935ce6f">
       <ID>Hierarchy 4</ID>
       <Name>BrainBleed</Name>
       <Levels>
-        <Level dwd:design-time-name="57bc5010-f3d4-4e58-bb64-df994041d47e">
+        <Level dwd:design-time-name="c71e047b-1b1b-4918-bb4b-799dce6019a9">
           <ID>CVA INFRACT</ID>
           <Name>CVA INFRACT</Name>
           <SourceAttributeID>CVA INFRACT</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="d7eea57e-07c9-44af-aa6f-a93dddfa0a29">
+        <Level dwd:design-time-name="551e002c-9133-492d-bf44-b7828102ee28">
           <ID>CVA BLEED</ID>
           <Name>CVA BLEED</Name>
           <SourceAttributeID>CVA BLEED</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>
-    <Hierarchy dwd:design-time-name="9142b812-2a0b-44ab-8f13-0b73e122b6c1">
+    <Hierarchy dwd:design-time-name="3e1d76b3-c711-4329-8a04-de65de65571b">
       <ID>Hierarchy 5</ID>
       <Name>Agina</Name>
       <Levels>
-        <Level dwd:design-time-name="9d32e698-ec54-4ec2-a8ab-9a1b2ef51b41">
+        <Level dwd:design-time-name="e4dbc467-806e-4f22-b084-c8d458d3d494">
           <ID>STABLE ANGINA</ID>
           <Name>STABLE ANGINA</Name>
           <SourceAttributeID>STABLE ANGINA</SourceAttributeID>
         </Level>
-        <Level dwd:design-time-name="d17a3049-1082-4ce5-9077-45305a57bbf9">
+        <Level dwd:design-time-name="6f1a3372-d261-4623-ba67-44f8bb18aec9">
           <ID>STEMI</ID>
           <Name>STEMI</Name>
           <SourceAttributeID>STEMI</SourceAttributeID>
